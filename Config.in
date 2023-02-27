@@ -458,4 +458,8 @@ menu "Libraries"
   source "$BR2_EXTERNAL_BATOCERA_PATH/package/batocera/libraries/python-hidapi/Config.in"
 endmenu
 
+menu "Great Scott Gadgets"
+  source "$BR2_EXTERNAL_BATOCERA_PATH/package/batocera/gsg/waterfall-demo/Config.in"
+endmenu
+
 endmenu

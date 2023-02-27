@@ -1,0 +1,126 @@
+{
+    "grab": false,
+    "actions": [
+        {
+            "trigger": [ "BTN_SELECT", "BTN_START" ],
+            "type": "key",
+            "target": [ "KEY_LEFTALT", "KEY_F4" ]
+        },
+        {
+            "trigger": [ "BTN_DPAD_UP" ],
+            "type": "key",
+            "target": [ "KEY_A" ]
+        },
+        {
+            "trigger": [ "BTN_DPAD_DOWN" ],
+            "type": "key",
+            "target": [ "KEY_Z" ]
+        },
+        {
+            "trigger": [ "BTN_DPAD_RIGHT" ],
+            "type": "key",
+            "target": [ "KEY_S" ]
+        },
+        {
+            "trigger": [ "BTN_DPAD_LEFT" ],
+            "type": "key",
+            "target": [ "KEY_X" ]
+        }
+    ],
+    "axes": [
+        {
+            "name": "ABS_X",
+            "code": 0,
+            "min": -1800,
+            "max": 1800
+        },
+        {
+            "name": "ABS_Y",
+            "code": 1,
+            "min": -1800,
+            "max": 1800
+        },
+        {
+            "name": "ABS_RX",
+            "code": 3,
+            "min": -1800,
+            "max": 1800
+        },
+        {
+            "name": "ABS_RY",
+            "code": 4,
+            "min": -1800,
+            "max": 1800
+        }
+    ],
+    "buttons": [
+        {
+            "name": "BTN_B",
+            "code": 304
+        },
+        {
+            "name": "BTN_A",
+            "code": 305
+        },
+        {
+            "name": "BTN_X",
+            "code": 307
+        },
+        {
+            "name": "BTN_Y",
+            "code": 308
+        },
+        {
+            "name": "BTN_TL",
+            "code": 310
+        },
+        {
+            "name": "BTN_TR",
+            "code": 311
+        },
+        {
+            "name": "BTN_TL2",
+            "code": 312
+        },
+        {
+            "name": "BTN_TR2",
+            "code": 313
+        },
+        {
+            "name": "BTN_SELECT",
+            "code": 314
+        },
+        {
+            "name": "BTN_START",
+            "code": 315
+        },
+        {
+            "name": "BTN_MODE",
+            "code": 316
+        },
+        {
+            "name": "BTN_THUMBL",
+            "code": 317
+        },
+        {
+            "name": "BTN_THUMBR",
+            "code": 318
+        },
+        {
+            "name": "BTN_DPAD_UP",
+            "code": 544
+        },
+        {
+            "name": "BTN_DPAD_DOWN",
+            "code": 545
+        },
+        {
+            "name": "BTN_DPAD_LEFT",
+            "code": 546
+        },
+        {
+            "name": "BTN_DPAD_RIGHT",
+            "code": 547
+        }
+    ]
+}
