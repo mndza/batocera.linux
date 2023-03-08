@@ -1,0 +1,6 @@
+config BR2_PACKAGE_SOAPYHACKRF
+    bool "soapyhackrf"
+    select BR2_PACKAGE_SOAPYSDR
+    select BR2_PACKAGE_HACKRF
+    help
+        Soapy SDR module for HackRF

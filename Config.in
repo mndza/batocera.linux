@@ -459,6 +459,8 @@ menu "Libraries"
 endmenu
 
 menu "Great Scott Gadgets"
+  source "$BR2_EXTERNAL_BATOCERA_PATH/package/batocera/gsg/soapysdr/Config.in"
+  source "$BR2_EXTERNAL_BATOCERA_PATH/package/batocera/gsg/soapyhackrf/Config.in"
   source "$BR2_EXTERNAL_BATOCERA_PATH/package/batocera/gsg/waterfall-demo/Config.in"
 endmenu
 
