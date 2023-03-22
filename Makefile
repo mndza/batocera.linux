@@ -21,8 +21,8 @@ ifndef BATCH_MODE
 	DOCKER_OPTS += -i
 endif
 
-DOCKER_REPO := batoceralinux
-IMAGE_NAME  := batocera.linux-build
+DOCKER_REPO := ghcr.io/mndza
+IMAGE_NAME  := rg552_buildenv
 
 TARGETS := $(sort $(shell find $(PROJECT_DIR)/configs/ -name 'b*' | sed -n 's/.*\/batocera-\(.*\).board/\1/p'))
 UID  := $(shell id -u)
