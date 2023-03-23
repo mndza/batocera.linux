@@ -17,6 +17,11 @@ Write the image to a SD card with:
 gunzip -c <imagename>.img.gz | sudo dd of=/dev/sdX bs=4M status=progress
 ```
 
+## SSH access
+Configure WiFi connection under Network settings (Start button).
+
+Credentials: `root` with password `linux`
+
 ## Notes
 Controls for waterfall demos:
 - `Start+Select`: exit
