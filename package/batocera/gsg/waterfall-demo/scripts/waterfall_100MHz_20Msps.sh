@@ -7,7 +7,7 @@ cp $DIR/button_map.json /var/run/evmapy/event3.json
 batocera-evmapy start > /dev/null 2>&1
 
 # Execute actual program
-hackrf_transfer -f 95000000 -s 20000000 -r - | waterfall-demo -a 80
+waterfall-demo -f 100000000 -s 20000000 -b 17500000 -a 160
 
 # Stop evmapy daemon
 evmapy -c /dev/input/event3:
