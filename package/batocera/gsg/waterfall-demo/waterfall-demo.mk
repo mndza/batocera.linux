@@ -4,7 +4,7 @@
 #
 ################################################################################
 
-WATERFALL_DEMO_COMMIT = b1df15e
+WATERFALL_DEMO_COMMIT = 169dcbf1f9cc249ccc18a9d0c0ff948975dae550
 WATERFALL_DEMO_VERSION = git+$(WATERFALL_DEMO_COMMIT)
 WATERFALL_DEMO_SITE = $(call github,mndza,waterfall-demo,$(WATERFALL_DEMO_COMMIT))
 WATERFALL_DEMO_LICENSE = BSD-3

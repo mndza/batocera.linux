@@ -25,6 +25,26 @@
             "trigger": [ "BTN_DPAD_LEFT" ],
             "type": "key",
             "target": [ "KEY_X" ]
+        },
+        {
+            "trigger": [ "BTN_TL" ],
+            "type": "key",
+            "target": [ "KEY_LEFT" ]
+        },
+        {
+            "trigger": [ "BTN_TL2" ],
+            "type": "key",
+            "target": [ "KEY_PAGEDOWN" ]
+        },
+        {
+            "trigger": [ "BTN_TR" ],
+            "type": "key",
+            "target": [ "KEY_RIGHT" ]
+        },
+        {
+            "trigger": [ "BTN_TR2" ],
+            "type": "key",
+            "target": [ "KEY_PAGEUP" ]
         }
     ],
     "axes": [
